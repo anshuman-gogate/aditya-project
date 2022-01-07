@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Intrest Calculator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Simple Interest Calculator</h1>
+
+    <div class="card card-si">
+        <label for="pa" class="card-label">Principal Amount: </label>
+        <input type="text" placeholder="Enter the principal amount" id="pa" class="card-input">
+        <br>
+        <label for="interest" class="card-label">Interest: </label>
+        <input type="text" placeholder="Enter the interest" id="interest" class="card-input">
+        <br>
+        <label for="time" class="card-label">Time: </label>
+        <input type="text" placeholder="Enter the time in years" id="time" class="card-input">
+        <br>
+        <button class="card-button" id="si-btn">Calculate!</button>
+        <button class="card-button" id="si-clear-btn">Clear!</button>
+        <p class="answer" id="si-answer"></p>
+    </div>
+    <script src="si.js"></script>
+</body>
+</html>

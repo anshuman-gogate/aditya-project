@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profit and Loss</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Calculate Profit and Loss</h1>
+
+    <!-- card for profit and loss -->
+
+    <div class="card card-pl">
+        <label for="sp" class="card-label">selling price: </label>
+        <input type="text" placeholder="Enter the selling price" id="sp" class="card-input">
+        <br>
+        <label for="cp" class="card-label">Cost Price: </label>
+        <input type="text" placeholder="Enter the cost price" id="cp" class="card-input">
+        <br>
+        <button class="card-button" id="calc-btn">Calculate!</button>
+        <button class="card-button" id="pl-clear-btn">Clear!</button>
+        <p class="answer" id="pl-answer"></p>
+    </div>
+
+    <script src="pl.js"></script>
+</body>
+</html>

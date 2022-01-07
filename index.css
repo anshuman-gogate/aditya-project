@@ -1,0 +1,107 @@
+body {
+    color: #404040; /* A lighter version of black color */
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.container {
+    /* border: 1px solid black; */
+    max-width: 1000px;
+    margin: 2rem auto;
+}
+
+.item-container {
+    /* border: 1px solid black; */
+    max-width: 500px;
+    margin: 3px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.item-name {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.item-btn {
+    padding: 1rem 1.5rem;
+    border: none;
+    cursor: pointer;
+    background-color: lightgreen;
+    color: #f5f5f5;
+    font-size: 1rem;
+}
+
+.description {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.card {
+    background-color: #dedede;
+    max-width: 400px;
+    padding: 1.5rem 2rem;
+    border-radius: 0.25rem;
+    margin: 3rem auto;
+}
+
+.card-pl {
+    max-width: 600px;
+}
+
+.card-si {
+    max-width: 800px;
+}
+
+.card-title {
+    margin: 0;
+    margin-bottom: 1rem;
+    font-size: 1.75rem;
+}
+
+.card-input {
+    display: inline-block;
+    padding: 0.75rem 1rem;
+    border: none;
+    outline: none;
+    margin-bottom: 1rem;
+    width: 70%;
+}
+
+.card-label {
+    display: inline-block;
+    /* width: 65px; */
+    width: 20%;
+    cursor: pointer;
+}
+
+.card-button {
+    padding: 0.75rem 1rem;
+    border: none;
+    background-color: lightgreen;
+    color: #202020;
+    cursor: pointer;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    margin-right: 1.5rem;
+    margin-top: 0.75rem;
+    margin-bottom: 0;
+}
+
+.card-button:hover {
+    background-color: rgb(109, 179, 109);
+}
+
+.answer {
+    font-size: 1.3rem;
+    margin-bottom: none;
+    margin-top: 1.5rem;
+    color: green;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
